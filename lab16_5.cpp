@@ -41,5 +41,6 @@ void shuffle(int *a, int*b, int*c, int*d){
 	}while(m[r] == 0);
 	n[3] = m[r];
 
+
 	*a = n[0], *b = n[1], *c = n[2], *d = n[3];
 }
